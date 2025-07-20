@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Portfolio - M Marshall" />
+  <title>M Marshall | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">M Marshall</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="dark-toggle">🌙</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h2>Hello, I'm <span>M Marshall</span></h2>
+        <p>Recent MCA Graduate | AI & Data Enthusiast | Developer</p>
+        <a href="<!-- RESUME_LINK_HERE.pdf -->" class="btn" target="_blank">Download Resume</a>
+      </div>
+      <div class="hero-img">
+        <img src="assets/images/profile.jpg" alt="Profile Photo" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate and dedicated software graduate with strong academic and project-based experience in Artificial Intelligence, Web Development, and Data Science. My recent project, <strong>NotifiAI</strong>, reflects my skills in Django, web scraping, APIs, and real-world notification systems. I'm actively seeking opportunities to apply my knowledge, grow my skill set, and contribute to impactful solutions.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills & Technologies</h2>
+      <div class="skills-grid">
+        <span>Python</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Django</span>
+        <span>Tailwind CSS</span><span>SQL</span><span>REST APIs</span><span>Web Scraping</span>
+        <span>Git & GitHub</span><span>AI & NLP</span><span>Jira</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>NotifiAI</h3>
+          <p>An AI-powered notification tracker that scrapes updates from job, academic, and e-commerce portals using Django, Scrapy, Playwright, and NLP tools.</p>
+        </div>
+        <div class="project-card">
+          <h3>Chatbot Assistant</h3>
+          <p>Built an NLP-based chatbot for intelligent conversations and document retrieval. Integrated with custom scraper and summarizer modules.</p>
+        </div>
+        <div class="project-card">
+          <h3>Academic Projects</h3>
+          <p>Various projects involving Python automation, web development, and data visualization during MCA coursework.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="section">
+    <div class="container">
+      <h2>Certificates & Testimonials</h2>
+      <div class="certificate-list">
+        <div class="certificate-card">
+          <h3>Python for Everybody</h3>
+          <p>Coursera | Issued Jan 2024</p>
+          <a href="<!-- CERTIFICATE_LINK_1 -->" target="_blank">View Certificate</a>
+        </div>
+        <div class="certificate-card">
+          <h3>AI & ML Fundamentals</h3>
+          <p>NPTEL | Issued Aug 2023</p>
+          <a href="<!-- CERTIFICATE_LINK_2 -->" target="_blank">View Certificate</a>
+        </div>
+        <div class="testimonial-card">
+          <blockquote>
+            "M Marshall is a highly dedicated individual. His project 'NotifiAI' was one of the most impactful projects in our batch."
+          </blockquote>
+          <p>– Professor/Guide Name</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>If you're looking for a reliable, hard-working developer with an eye for detail, let's connect.</p>
+      <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="<!-- LINKEDIN_LINK_HERE -->" target="_blank">LinkedIn</a>
+        <a href="<!-- GITHUB_LINK_HERE -->" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 M Marshall. All rights reserved.</p>
+  </footer>
+</body>
+</html>
