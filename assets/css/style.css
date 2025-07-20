@@ -150,3 +150,20 @@
     }
   }
   
+  .form-status {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .form-status.success {
+    color: green;
+  }
+  
+  .form-status.error {
+    color: red;
+  }
+    .testimonial {
+        background-color: var(--section-bg);
+        border-left: 4px solid var(--accent-color);
+    }  

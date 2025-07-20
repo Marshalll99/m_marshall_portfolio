@@ -32,12 +32,12 @@
   <section id="home" class="hero">
     <div class="container">
       <div class="hero-text">
-        <h2>Hello, I'm <span>M Marshall</span></h2>
+        <h2>Hello, I'm <span>Mansoor Ahmad Mir</span></h2>
         <p>Recent MCA Graduate | AI & Data Enthusiast | Developer</p>
         <a href="<!-- RESUME_LINK_HERE.pdf -->" class="btn" target="_blank">Download Resume</a>
       </div>
       <div class="hero-img">
-        <img src="assets/images/profile.jpg" alt="Profile Photo" />
+        <img src="assets/images/profile.jpeg" alt="Profile Photo" />
       </div>
     </div>
   </section>
@@ -108,18 +108,23 @@
     <div class="container">
       <h2>Contact</h2>
       <p>If you're looking for a reliable, hard-working developer with an eye for detail, let's connect.</p>
-      <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+      
+      <form id="contact-form" action="https://formspree.io/f/meozeken" method="POST" class="contact-form">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="_replyto" placeholder="Your Email" required>
         <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
         <button type="submit" class="btn">Send Message</button>
+        <!-- 🔁 New element below -->
+        <p id="form-status" class="form-status"></p>
       </form>
+  
       <div class="social-links">
         <a href="<!-- LINKEDIN_LINK_HERE -->" target="_blank">LinkedIn</a>
         <a href="<!-- GITHUB_LINK_HERE -->" target="_blank">GitHub</a>
       </div>
     </div>
   </section>
+  
 
   <footer>
     <p>&copy; 2025 M Marshall. All rights reserved.</p>
